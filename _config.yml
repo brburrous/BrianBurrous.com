@@ -2,7 +2,7 @@
 # General Site Settings
 title: Brian Burrous
 logo: # You can add own logo. For example '/images/logo.png'.
-description: This is my personal site.
+description: This is my home on the internet.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brianburrous.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
