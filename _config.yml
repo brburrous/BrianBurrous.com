@@ -2,7 +2,7 @@
 # General Site Settings
 title: Brian Burrous
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Joseph is a super minimal content focus theme for Jekyll.
+description: This is my personal site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brianburrous.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -11,7 +11,7 @@ url: "https://brianburrous.com/" # the base hostname & protocol for your site, e
 author:
   name: Brian Burrous
   bio: I'm a mechanical engineering student.
-  avatar: '/profileSQ.webp'
+  avatar: '/profileBase.webp'
 
 social:
 - {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/Brian_Burrous"}
