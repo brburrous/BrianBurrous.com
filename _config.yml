@@ -11,7 +11,7 @@ url: "https://brianburrous.com/" # the base hostname & protocol for your site, e
 author:
   name: Brian Burrous
   bio: I'm a mechanical engineering student.
-  avatar: '/profileBase.webp'
+  avatar: '/profileBot.webp'
 
 social:
 - {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/Brian_Burrous"}
