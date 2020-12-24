@@ -2,7 +2,6 @@
 layout: page
 title: Portfolio
 permalink: /portfolio/
-image: '/images/09.jpg'
 ---
 
 ## Wecome *Friends*
@@ -18,7 +17,6 @@ image: '/images/09.jpg'
 
 This is a ~~test~~
 
-<button type="button">Click Me!</button>
 
 
 >This is a quote
