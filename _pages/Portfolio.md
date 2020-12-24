@@ -21,3 +21,5 @@ This is a ~~test~~
 
 
 >This is a quote
+
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
