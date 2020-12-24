@@ -7,11 +7,15 @@ layout: default
 <div class="container">
   <div class="row animate">
     {% if site.posts.size > 0 %}
-      {% for post in paginator.posts %}
-        {% include article-content.html %}
-      {% endfor %}
+    {% for post in paginator.posts %}
+    {% include article-content.html %}
+    {% endfor %}
     {% endif %}
   </div>
 </div>
 
 {% include pagination.html %}
+
+What happens when we add text here?
+
+<h1>Is this a heading?</h1>
