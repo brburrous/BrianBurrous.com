@@ -10,4 +10,4 @@ image: '/images/09.jpg'
 [https://www.wikipedia.com](Wikipedia)
 
 
-{% twitter https://twitter.com/Brian_Burrous/status/1328535164205481984 %}
+{% twitter https://twitter.com/Brian_Burrous/status/1328535164205481984 align=center %}
