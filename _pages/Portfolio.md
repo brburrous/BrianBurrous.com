@@ -16,6 +16,8 @@ image: '/images/09.jpg'
 
 <iframe src="https://anchor.fm/productideas/embed/episodes/Product-Ideas-2-with-Brian-Burrous-enu7m4/a-a45cvn4" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
-~~test~~
+This is a ~~test~~
+
+
 
 >This is a quote
