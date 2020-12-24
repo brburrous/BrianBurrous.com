@@ -70,6 +70,7 @@ plugins:
   - jekyll/tagging
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-twitter-plugin
 
 paginate: 5
 paginate_path: "/page/:num"
