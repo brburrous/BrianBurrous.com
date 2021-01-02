@@ -1,8 +1,15 @@
 ---
-layout: default
-title: essays
+layout: page
+title: Essays
 permalink: /essays/
-image: '/images/11.jpg'
-
+image: '/images/08.jpg'
 ---
 
+
+
+{% for post in site.posts %}
+<h1>{{ post.title }}</h1>
+<p>{{post.description}}</p>
+<a href="{{ post.url | prepend: site.baseurl }}" "> READ MORE</a>
+<p><br></p>
+{% endfor %}
