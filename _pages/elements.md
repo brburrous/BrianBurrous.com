@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Elements
-permalink: /elements/
+title: essays
+permalink: /essays/
 image: '/images/11.jpg'
 ---
 
