@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: I'm Brian Burrous, here's a little about me.
 permalink: /about/
 image: '/images/profileWD.webp'
 ---
