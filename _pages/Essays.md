@@ -1,0 +1,18 @@
+---
+layout: page
+title: essays
+permalink: /essays/
+image: '/images/11.jpg'
+---
+
+<div class="container">
+  <div class="row animate">
+    {% if site.posts.size > 0 %}
+    {% for post in paginator.posts %}
+    {% include article-content.html %}
+    {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+{% include pagination.html %}
