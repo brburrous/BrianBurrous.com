@@ -6,3 +6,5 @@ gem 'jekyll-tagging'
 gem "jekyll-sitemap"
 gem 'jekyll-seo-tag'
 gem 'jekyll-twitter-plugin'
+
+gem "webrick", "~> 1.7"
