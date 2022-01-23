@@ -4,7 +4,7 @@ title: This is an example of a post
 description: Sin tantum est boni praeter summam voluptatem, et eam sempiternam. Cur
   post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum
   occultissimarum, empull...
-date: 2018-11-06T15:01:35.000+03:00
+date: 2022-01-05 08:00:00 +0000
 image: "/images/05.jpg"
 tags:
 - workflow
