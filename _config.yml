@@ -15,7 +15,8 @@ author:
 
 social:
 - {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/Brian_Burrous"}
-#- {icon: "ion-logo-facebook", label: Facebook, link: "https://facebook.com"}
+# - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
+# - {icon: "ion-logo-facebook", label: Facebook, link: "https://facebook.com"}
 #- {icon: "ion-logo-pinterest", label: Pinterest, link: "https://pinterest.com"}
 #- {icon: "ion-logo-dribbble", label: Dribbble, link: "https://dribbble.com"}
 #- {icon: "ion-logo-instagram", label: Instagram, link: "https://instagram.com"}
@@ -27,9 +28,10 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I’m Brian Burrous!
-  hero__description: I'm interested in anything mechanical. Also interested in software, startups, tech, cinematography, etc.
+  hero__title: Hey, I’m Brian!
+  hero__description: I'm an engineer.
   hero__image: '/images/profileSQ.webp'
+
 
 
 #-------------------------------

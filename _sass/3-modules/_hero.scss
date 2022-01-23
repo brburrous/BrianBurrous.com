@@ -2,6 +2,7 @@
 .hero {
   margin-bottom: 96px;
 
+
   @media only screen and (max-width: $tablet) {
     margin-bottom: 60px;
   }
@@ -13,6 +14,7 @@
 
 .hero__inner {
   display: flex;
+  flex-direction: column;
   align-items: center;
 
   @media only screen and (max-width: $desktop) {
@@ -20,15 +22,42 @@
   }
 }
 
-.hero__left {
+.hero__top {
   position: relative;
-  margin-right: 68px;
+  margin-bottom: 40px;
+
+
+  .hero__title {
+    margin-bottom: 32px;
+    font-size: 60px;
+    line-height: .85em;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-align: center;
+    // text-transform: uppercase;
+    color: var(--heading-font-color);
+
+    @media only screen and (max-width: 1140px) {
+      font-size: 60px;
+    }
+
+    @media only screen and (max-width: $desktop) {
+      margin-bottom: 32px;
+      font-size: 48px;
+      letter-spacing: normal;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      margin-bottom: 24px;
+      font-size: 32px;
+    }
+  }
 
   .hero__image {
     position: relative;
     z-index: 10;
-    width: 380px;
-    height: 480px;
+    width: 580px;
+    height: 380px;
     margin: 0 auto;
     border-radius: 2px;
     overflow: hidden;
@@ -50,7 +79,8 @@
   }
 
   @media only screen and (max-width: 1140px) {
-    margin-right: 60px;
+    // margin-right: 60px;
+    margin-right: 0px;
   }
 
   @media only screen and (max-width: $desktop) {
@@ -81,32 +111,13 @@
   }
 }
 
-.hero__right {
+.hero__bottom {
+  max-width: 66.66666667%;
 
-  .hero__title {
-    margin-bottom: 32px;
-    font-size: 68px;
-    line-height: .85em;
-    font-weight: 900;
-    letter-spacing: -1px;
-    text-transform: uppercase;
-    color: var(--heading-font-color);
-
-    @media only screen and (max-width: 1140px) {
-      font-size: 60px;
-    }
-
-    @media only screen and (max-width: $desktop) {
-      margin-bottom: 32px;
-      font-size: 48px;
-      letter-spacing: normal;
-    }
-
-    @media only screen and (max-width: $mobile) {
-      margin-bottom: 24px;
-      font-size: 32px;
-    }
+  @media only screen and (max-width: $tablet) {
+    max-width: 100%;
   }
+
 
   .hero__description {
     max-width: 530px;
@@ -131,6 +142,7 @@
     .social__item {
       margin-right: 8px;
       margin-bottom: 0;
+
       &:last-child {
         margin-right: 0;
       }
